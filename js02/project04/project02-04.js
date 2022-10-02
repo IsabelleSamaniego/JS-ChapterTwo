@@ -51,8 +51,6 @@ function calcTotal() {
     // total cost
     let totalCost = cost + tax;
     document.getElementById("totalBill").innerHTML = formatCurrency(totalCost);
-
-    
 }
 
 function formatCurrency(value) {
